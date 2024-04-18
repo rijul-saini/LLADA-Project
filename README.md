@@ -1,3 +1,3 @@
 # Capstone Project
-## Data Analysis Tool with LLMs - By Rijul Saini
+## Large-Language Assissted Data Analysis Tool - By Rijul Saini
 
