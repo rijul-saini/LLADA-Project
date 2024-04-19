@@ -52,7 +52,7 @@ import pandas as pd
 data = pd.read_csv("path_to_your_dataset.csv")
 ```
 
-**Summarizer**
+-**Summarizer**
 <br/><br/>
 Generates a JSON summary of the dataset for the goal generation step.\
 Optionally, you can also print a natural language summary of the data by passing argument `show = True` (Set to False by default).\
@@ -67,7 +67,7 @@ summary = llada.summarize(data)
 summary = llada.summarize(data, show=True)
 ```
 
-**Goal Generator**
+-**Goal Generator**
 <br/><br/>
 Generates analysis suggestions for the data, along with some rationale for why the analysis is needed.\
 Number of goals to be generated can be set by specifying the `n` argument (`n = 3` by default).\
@@ -82,7 +82,7 @@ goals = llada.generateGoals(summary)
 goals = llada.generateGoals(summary, n=5)
 ```
 
-**Analyzer**
+-**Analyzer**
 <br/><br/>
 Generates and executes Python code for the analysis goals. If multiple goals are passed as argument, all goals will be analyzed by default.\
 Optionally, you can pass `i` argument to specify any particular goal by index from goals, and only that analysis will be generated.\
@@ -97,7 +97,7 @@ results = llada.analyze(data, goals)
 results = llada.analyze(data, goals, i=1)
 ```
 
-**Interpreter**
+-**Interpreter**
 <br/><br/>
 Generates natural language interpretation of the analysis results for the user.\
 The function returns and prints a string containing the questions and their results derived from the analyses.
@@ -110,4 +110,5 @@ explain = llada.interpret(results)
 <br/><br/>
 ### Contributing
 
-LLADA Project is still in the prototyping stage, and all contributions are welcome! If you have suggestions for improvements or bug fixes, please open an issue or submit a pull request.<br>
+LLADA Project is still in the prototyping stage, and all contributions are welcome! If you have suggestions for improvements or bug fixes, please open an issue or submit a pull request.
+<br/><br/>
