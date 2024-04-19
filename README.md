@@ -11,6 +11,7 @@ LLADA is a Python package designed to facilitate the data analysis process by in
 - **Analyzer**: Execute Python code to analyze data according to the generated goals.
 - **Interpreter**: Provide natural language explanations of the analysis results.
 
+
 ### Installation
 
 Before installing LLADA, ensure you have Python 3.6 or higher installed. You can install LLADA directly from the source code using the following commands:
@@ -20,6 +21,7 @@ git clone https://github.com/rijul-saini/LLADA-Project.git
 cd llada
 pip install .
 ```
+
 
 ### Configuration
 
@@ -34,6 +36,7 @@ export OPENAI_API_KEY='your_openai_api_key_here'
 import llada
 llada.set_api_key('your_openai_api_key_here')
 ```
+
 
 ### Usage
 
@@ -97,6 +100,7 @@ The function returns and prints a string containing the questions and their resu
 # Interpret the results
 explain = llada.interpret(results)
 ```
+
 
 ### Contributing
 
