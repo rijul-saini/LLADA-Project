@@ -53,6 +53,7 @@ data = pd.read_csv("path_to_your_dataset.csv")
 ```
 
 **Summarizer**\
+<br/>
 Generates a JSON summary of the dataset for the goal generation step.\
 Optionally, you can also print a natural language summary of the data by passing argument `show = True` (Set to False by default).\
 *Note: Generating the text summary requires an additional query to the LLM API and tokens will be charged accordingly.*
