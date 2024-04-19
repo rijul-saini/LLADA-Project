@@ -1,8 +1,8 @@
 # Capstone Project
 ## Large-Language Assisted Data Analysis Tool
-<br/>
+<br/><br/>
 LLADA is a Python package designed to facilitate the data analysis process by integrating large language models (LLMs) via the OpenAI API. This package allows users to summarize datasets, generate data analysis goals, execute analysis, and interpret the results in natural language.
-<br/>
+<br/><br/>
 ### Features
 
 - **Summarizer**: Automatically generate text and JSON summaries of input datasets.
@@ -10,8 +10,8 @@ LLADA is a Python package designed to facilitate the data analysis process by in
 - **Analyzer**: Execute Python code to analyze data according to the generated goals.
 - **Interpreter**: Provide natural language explanations of the analysis results.
 
-<br/>
-<br/>
+<br/><br/>
+<br/><br/>
 ### Installation
 
 Before installing LLADA, ensure you have Python 3.6 or higher installed. You can install LLADA directly from the source code using the following commands:
@@ -22,8 +22,8 @@ cd llada
 pip install .
 ```
 
-<br/>
-<br/>
+<br/><br/>
+<br/><br/>
 ### Configuration
 
 Before using the LLADA package, you must set the OpenAI API key that will be used to interact with the OpenAI GPT models. This can be done in two ways:
@@ -38,8 +38,8 @@ import llada
 llada.set_api_key('your_openai_api_key_here')
 ```
 
-<br/>
-<br/>
+<br/><br/>
+<br/><br/>
 ### Usage
 
 Here is a simple example of how to use the LLADA package:
