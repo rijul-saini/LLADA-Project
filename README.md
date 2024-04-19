@@ -1,4 +1,4 @@
-# Capstone Project - Rijul Saini
+# Capstone Project
 ## Large-Language Assisted Data Analysis Tool
 
 LLADA is a Python package designed to facilitate the data analysis process by integrating large language models (LLMs) via the OpenAI API. This package allows users to summarize datasets, generate data analysis goals, execute analysis, and interpret the results in natural language.
